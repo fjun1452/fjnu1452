@@ -6,6 +6,14 @@
 }
 
 
+html {
+  scroll-behavior: smooth;          /* 平滑滚动，可选 */
+}
+section[id] {
+  scroll-margin-top: 150px;         /* 关键：垫高 120px，避免被 header 遮挡 */
+}
+
+
 
 /* 1. 让所有 section 的标题成为锚点接收者 */
 section {
@@ -189,6 +197,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
