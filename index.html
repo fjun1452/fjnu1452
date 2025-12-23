@@ -7,23 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-    
-<!-- 正文 [Code] 弹窗提示 -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    // 只选中正文里那个“[Code]”链接
-    const codeLink = document.querySelector('section#code a[href="#"]');
-    if (codeLink) {
-      codeLink.addEventListener('click', e => {
-        e.preventDefault();   // 阻止默认跳转（href="#"）
-        alert('If you need the code and dataset resources, please contact the corresponding author and provide your Hugging Face account to be granted access.');
-      });
-    }
-  });
-</script>
-
-
-    
+  
 <body>
 
 <header>
@@ -117,7 +101,8 @@
         <h3 class="section-title">Contact</h3>
         <ul class="pub-list">
             <li>
-                <p>If necessary, please contact the corresponding author.</p>
+                <p class="highlight-contact">The algorithm code resources and datasets of this study can be obtained by contacting the corresponding author under reasonable requests. </p><br>
+                <p class="highlight-contact">Please send an email and provide your Huggingface account to gain access.</p><br>
                 <em class="highlight-contact">Email: kwang@fjnu.edu.cn</em>
             </li>
         </ul>
