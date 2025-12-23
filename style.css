@@ -5,12 +5,22 @@
     box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;          /* 平滑滚动，可选 */
+
+
+/* 1. 让所有 section 的标题成为锚点接收者 */
+section {
+  scroll-margin-top: 90px;   /* 导航栏高度 + 想留的间距 */
 }
-section[id] {
-  scroll-margin-top: 120px;         /* 关键：垫高 120px，避免被 header 遮挡 */
+
+/* 2. 如果老浏览器不支持 scroll-margin-top，再补一段兼容写法 */
+section::before {
+  content: "";
+  display: block;
+  height: 90px;        /* 等于导航栏高度 */
+  margin-top: -90px;
+  visibility: hidden;
 }
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -179,6 +189,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
