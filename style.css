@@ -27,7 +27,7 @@ body {
 .highlight-contact {
   font-weight: bold;
   font-size: 1.25rem;   /* 20px 左右 */
-  color: #c62828;       /* 醒目深红 */
+  color: ＃000000;       
 }
 
 /* 导航横向排布 */
@@ -165,3 +165,4 @@ footer {
     font-size: 0.9rem;
 
 }
+
