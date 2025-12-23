@@ -40,7 +40,7 @@ body {
 /* 导航横向排布 */
 nav ul{
   display:flex;
-  gap:0.8rem;
+  gap:0.5rem;
   list-style:none;
   margin:0;
   padding:0;
@@ -172,6 +172,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
