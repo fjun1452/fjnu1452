@@ -6,13 +6,9 @@
 }
 
 
-
-
-
 section[id] {
   scroll-margin-top: 300px;   
 }
-
 
 
 
@@ -44,7 +40,7 @@ body {
 /* 导航横向排布 */
 nav ul{
   display:flex;
-  gap:1.2rem;
+  gap:0.8rem;
   list-style:none;
   margin:0;
   padding:0;
@@ -54,7 +50,7 @@ nav ul{
 header {
     background: #fff;
     border-bottom: 1px solid #eee;
-    padding: 1.5rem 0;
+    padding: 1.0rem 0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -170,7 +166,7 @@ nav ul li a:hover {
 }
 
 .about-list{
-    font-size: 0.3rem;    
+    font-size: 0.5rem;    
 }
 
 /* 页脚 */
@@ -183,6 +179,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
