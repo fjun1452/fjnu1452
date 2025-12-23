@@ -165,8 +165,8 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-.acout-list{
-font-size: 0.5rem;    
+.about-list{
+    font-size: 0.3rem;    
 }
 
 /* 页脚 */
@@ -179,6 +179,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
