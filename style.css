@@ -14,9 +14,6 @@ section[id] {
 }
 
 
-
-
-
 /* 2. 如果老浏览器不支持 scroll-margin-top，再补一段兼容写法 */
 section::before {
   content: "";
@@ -194,6 +191,7 @@ footer {
     font-size: 0.9rem;
 
 }
+
 
 
 
